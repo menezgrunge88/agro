@@ -30,6 +30,8 @@ body{
  #a_registroDeUsuarios{
     color: white;
     text-decoration: none; 
+    float: right;
+    margin-top: 5px;
     
 
 } 
@@ -82,9 +84,9 @@ body{
 } */
 
 #logo_barra{
-    width: 10%;
+    width: 15%;
     
-    height: 10%;
+    height: 15%;
 }
 
 legend{
