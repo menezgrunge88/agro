@@ -1,0 +1,100 @@
+
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-image:url(./imgs/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    
+   
+}
+
+#navegacion{
+    /* position: fixed; para volver pegajoso el menú*/
+    width: 100%;
+    
+    height: 20%;
+     
+    
+}
+
+#btn_registroDeUsuarios:hover{
+    cursor: pointer;    
+    background: rgba(0,0,0,0.9);
+}
+
+/* aquí muevo a la posición deseada boton de registrar */
+ #a_registroDeUsuarios{
+    color: white;
+    text-decoration: none; 
+    
+
+} 
+
+#btn_registroDeUsuarios{
+    position: absolute;
+    left: 1250px;
+    top: 5px;
+    color: white;
+    font: inherit;
+    text-decoration: none;
+    background: rgba(0,0,0,0);
+    border: none;
+    padding: 10 ;
+
+}
+
+
+
+/* aquí lo vuelvo horizontal */
+#navegacion ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    
+    
+}
+
+#logo{
+   position: absolute;
+   left: 10px;
+   width: 30px;
+   height: 30px;
+    
+}
+
+#div1{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    height: 5.5%;
+    
+    
+}
+
+/* #btn_registroDeUsuarios {
+    position: absolute;
+    left: 1250px;
+} */
+
+#logo_barra{
+    width: 10%;
+    
+    height: 10%;
+}
+
+legend{
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+header{
+    color: white;
+}
